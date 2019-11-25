@@ -42,10 +42,10 @@ function buildBurger(burger, status) {
   }).text(burger).appendTo(`#${status}`);
   if (status == "ready") {
     $("<button>").attr({
-      class: "ml-3"
+      class: "ml-3 devourButton"
     }).text("Devour").appendTo(`#burger${$("li").length-1}`);
-  }
-  $("button").on("click", devourBurger);
+  };
+  $(".devourButton").on("click", devourBurger);
 };
 
 $("#log").on("click",logBurger);
