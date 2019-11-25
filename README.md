@@ -6,4 +6,4 @@ To use the app, simply type in the burger you wish to create and click "Log". Th
 
 The app uses MySQL, Node and Express.
 
-![Working Giphy](demo.gif)
+![Working Giphy](Demo.gif)
